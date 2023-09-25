@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/log/style-lg.css">
+    <link rel="stylesheet" href="/cajero/log/style-lg.css">
+    <link rel="stylesheet" href="/cajero/log/conexion.php">
     <title>Document</title>
+    
 </head>
 <body>
+
   <div class="main">
     <div class="contenedora">
-      <form action="" id="formulario">
+      <form action="post" id="formulario">
         
         <label for="nombre">nombre de usuario:</label> 
-        <input type="text" placeholder="nombre de usuario" maxlength="30" id="nombre">
+        <input type="text" placeholder="nombre de usuario" maxlength="30" id="nombre" name="usuario">
       </form>
         
       <form action=""  id="formu">
         <label for="contraseña">contraseña:</label>
-        <input type="password" placeholder="contraseña" maxlength="30" id="contraseña">
+        <input type="password" placeholder="contraseña" maxlength="30" id="contraseña" name="contrasenia">
       </form>
-      <input type="button" value="enviar" id="boton">
+      <input type="button" value="enviar" id="boton" name="boton">
     </div>
   </div>
-  <script src="/log/script-lg.js"></script>
+  <script src="/cajero/log/script-lg.js"></script>
 </body>
 </html>
